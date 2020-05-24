@@ -116,8 +116,8 @@ let resumeData = {
   "portfolio":[
     {
       "name":"project1",
-      "description":"mobileapp",
-      "imgurl":"https://www.linkedin.com/feed/update/urn:li:activity:6659077003066646528/"
+      "description":"ProcessingTime",
+      "imgurl":"images/portfolio/phone.jpg"
     },
     {
       "name":"project2",
