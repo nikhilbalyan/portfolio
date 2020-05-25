@@ -35,6 +35,10 @@ export default class About extends Component {
                     </span>
                     <br></br>
                     <span>{resumeData.email}</span>
+                    <br></br>
+                    <a href = "https://medium.com/@nbalyan10">
+                     <span>Medium</span> 
+                    </a>
        					   </p>
                   </div>
                </div>
