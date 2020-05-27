@@ -37,6 +37,7 @@ export default class Porfolio extends Component {
                       <div className="item-wrap">
                           <div>
                           <a href={item.url}>
+                            <span>
                           <Image cloudName="nikhilbalyan" publicId= {`${item.imgurl}`} height = "300" width = "300" crop="scale"/>
                           
                           <div className="overlay">
@@ -48,6 +49,7 @@ export default class Porfolio extends Component {
                               
                             </div>
                           </div>
+                          </span>
                           </a>
                           </div>
                     </div>
@@ -57,13 +59,13 @@ export default class Porfolio extends Component {
               }
               </div>
               </div>
-              <div>
-                <a href="https://youtu.be/_SlajIKm5Ko">Processing Time Mule Application</a>
+              {/* <div>
+                <a href="https://youtu.be/_SlajIKm5Ko"><span>Processing Time Mule Application</span></p></a>
                 <br/>
-                <a href="https://youtu.be/npTnYxj-ADI">Shopping Cart Spring Boot</a>
+                <a href="https://youtu.be/npTnYxj-ADI"><p>Shopping Cart Spring Boot</p></a>
                 <br/>
-                <a href="https://drive.google.com/file/d/0Bz5kvTbBe4fVTk16OFM3S0E5dDQ/view?usp=sharing">Cheque Submission Android Application</a>
-              </div>
+                <a href="https://drive.google.com/file/d/0Bz5kvTbBe4fVTk16OFM3S0E5dDQ/view?usp=sharing"><p>Cheque Submission Android Application</p></a>
+              </div> */}
             <h1>Selected Open Source Contributions</h1>
             <div className = "row">
             <p>
