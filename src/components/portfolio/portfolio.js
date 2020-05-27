@@ -50,7 +50,7 @@ export default class Porfolio extends Component {
                 })
               }
             </div>
-            <h1>Open Source Contributions</h1>
+            <h1>Selected Open Source Contributions</h1>
             <div className = "row">
             <p>
               <a href= "https://github.com/mulesoft/docs-mule-runtime/issues/1311">
