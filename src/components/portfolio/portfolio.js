@@ -28,27 +28,29 @@ export default class Porfolio extends Component {
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Check Out Some of My Works, Click Items to Know More</h1>
+            <div className="row">
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               {
                 portfolio && portfolio.map((item) => {
                   return (
                     <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a href={item.url}>
+                      <div className="item-wrap">                        
                           <Image cloudName="nikhilbalyan" publicId= {`${item.imgurl}`} height = "300" width = "300" crop="scale"/>
+                          <a href={item.url}>
                           <div className="overlay">
                             <div className="portfolio-item-meta">
                               <h5>{item.name}</h5>
                               <p>{item.description}</p>
                             </div>
                           </div>
-                          {/* </a> */}
-                        </a>
+                          </a>
                       </div>
                     </div>
+                    
                   )
                 })
               }
+              </div>
             </div>
             <h1>Selected Open Source Contributions</h1>
             <div className = "row">
