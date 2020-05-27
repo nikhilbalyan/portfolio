@@ -59,13 +59,13 @@ export default class Porfolio extends Component {
               }
               </div>
               </div>
-              {/* <div>
-                <a href="https://youtu.be/_SlajIKm5Ko"><span>Processing Time Mule Application</span></p></a>
+              <div>
+                <a href="https://youtu.be/_SlajIKm5Ko"><span>Processing Time Mule Application</span></a>
                 <br/>
-                <a href="https://youtu.be/npTnYxj-ADI"><p>Shopping Cart Spring Boot</p></a>
+                <a href="https://youtu.be/npTnYxj-ADI"><span>Shopping Cart Spring Boot</span></a>
                 <br/>
-                <a href="https://drive.google.com/file/d/0Bz5kvTbBe4fVTk16OFM3S0E5dDQ/view?usp=sharing"><p>Cheque Submission Android Application</p></a>
-              </div> */}
+                <a href="https://drive.google.com/file/d/0Bz5kvTbBe4fVTk16OFM3S0E5dDQ/view?usp=sharing"><span>Cheque Submission Android Application</span></a>
+              </div>
             <h1>Selected Open Source Contributions</h1>
             <div className = "row">
             <p>
