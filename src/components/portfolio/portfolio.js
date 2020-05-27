@@ -34,24 +34,36 @@ export default class Porfolio extends Component {
                 portfolio && portfolio.map((item) => {
                   return (
                     <div className="columns portfolio-item">
-                      <div className="item-wrap">                        
-                          <Image cloudName="nikhilbalyan" publicId= {`${item.imgurl}`} height = "300" width = "300" crop="scale"/>
+                      <div className="item-wrap">
+                          <div>
                           <a href={item.url}>
+                          <Image cloudName="nikhilbalyan" publicId= {`${item.imgurl}`} height = "300" width = "300" crop="scale"/>
+                          
                           <div className="overlay">
                             <div className="portfolio-item-meta">
+                            
                               <h5>{item.name}</h5>
+                              
                               <p>{item.description}</p>
+                              
                             </div>
                           </div>
                           </a>
-                      </div>
+                          </div>
                     </div>
-                    
+                    </div>
                   )
                 })
               }
               </div>
-            </div>
+              </div>
+              <div>
+                <a href="https://youtu.be/_SlajIKm5Ko">Processing Time Mule Application</a>
+                <br/>
+                <a href="https://youtu.be/npTnYxj-ADI">Shopping Cart Spring Boot</a>
+                <br/>
+                <a href="https://drive.google.com/file/d/0Bz5kvTbBe4fVTk16OFM3S0E5dDQ/view?usp=sharing">Cheque Submission Android Application</a>
+              </div>
             <h1>Selected Open Source Contributions</h1>
             <div className = "row">
             <p>
