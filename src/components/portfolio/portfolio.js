@@ -35,6 +35,7 @@ export default class Porfolio extends Component {
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
                         <a href={item.url}>
+                          <div>
                           <Image cloudName="nikhilbalyan" publicId= {`${item.imgurl}`} height = "300" width = "300" crop="scale"/>
                           <div className="overlay">
                             <div className="portfolio-item-meta">
@@ -43,6 +44,7 @@ export default class Porfolio extends Component {
                             </div>
                           </div>
                           {/* </a> */}
+                          </div>
                         </a>
                       </div>
                     </div>
