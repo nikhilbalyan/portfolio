@@ -6,9 +6,15 @@ export default class Porfolio extends Component {
     let portfolio = [
       {
         "name": "Processing Time in Mule",
-        "description": "calculate processing Time in Mule for each Component",
+        "description": "Calculate processing Time in Mule for each Component",
         "imgurl": 'processingTime_wwfywb',
         "url": "https://youtu.be/_SlajIKm5Ko"
+      },
+      {
+        "name": "Translation of text from English to Spanish involving Azure API, Slack API and Mule application for orchestration",
+        "description": "Convert English to Spanish from Slack Channel using Mule application as orchestrator and Azure API for conversion of text",
+        "imgurl": "translate_slack_bot_PM_sxdhny",
+        "url": "https://www.youtube.com/watch?v=Pa71X6aBD3U"
       },
       {
         "name": "Shopping Cart Application Spring Boot Application",
@@ -65,6 +71,8 @@ export default class Porfolio extends Component {
                 <a href="https://youtu.be/npTnYxj-ADI"><span>Shopping Cart Spring Boot</span></a>
                 <br/>
                 <a href="https://drive.google.com/file/d/0Bz5kvTbBe4fVTk16OFM3S0E5dDQ/view?usp=sharing"><span>Cheque Submission Android Application</span></a>
+                <br/>
+                <a href="https://www.youtube.com/watch?v=Pa71X6aBD3U"><span>Tranlsate English to Spanish for Slack Channel using Translate service of Microsoft Azure and orchestrating using Mule application </span></a>
               </div>
             <h1>Selected Open Source Contributions</h1>
             <div className = "row">
